@@ -21,7 +21,7 @@ My Plants is a web application designed to help users manage their plant collect
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/mrochelle23/Sprint.git
+   git clone https://github.com/mrochelle23/Homework-5-Starter.git
    cd Sprint
    ```
 
