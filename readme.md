@@ -54,8 +54,3 @@ My Plants is a web application designed to help users manage their plant collect
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or create an issue for any improvements or bug fixes.
-
-## Acknowledgments
-
-- Thanks to [Make School](https://www.makeschool.com) for providing resources and guidance during the development of this project.
-```
