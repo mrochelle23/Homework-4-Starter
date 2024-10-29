@@ -50,7 +50,3 @@ My Plants is a web application designed to help users manage their plant collect
 - **Plant Details**: Click on a plant to view its details, edit information, or delete it.
 - **Harvesting**: Record the harvest details for your plants.
 - **Comments**: Add comments to share your experiences with each plant.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or create an issue for any improvements or bug fixes.
