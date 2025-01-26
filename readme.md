@@ -1,21 +1,38 @@
-# My Plants
+# Plant Tracker App
 
-My Plants is a web application designed to help users manage their plant collections. Users can add, edit, view details, and delete plants, as well as track harvest history and leave comments about their plants.
+The Plant Tracker App is a web application designed to help users manage and track their plants. It provides a simple interface to add, edit, and delete plant entries, as well as record harvesting details and view comments related to each plant.
 
 ## Features
 
-- Add new plants with details such as name, variety, photo URL, and planting date.
-- View detailed information about each plant, including harvest history and comments.
-- Edit existing plant details.
-- Delete plants from the collection.
-- Comment on plants for sharing experiences or notes.
+- **Create a New Plant**: Add new plants with details such as name, variety, photo URL, and date planted.
+- **View Plant Details**: View the details of each plant, including photo, variety, and planting date.
+- **Edit Plant Details**: Edit the information of existing plants, such as their name, variety, and photo.
+- **Track Harvesting**: Record harvested amounts and dates for each plant.
+- **Comments**: Add comments to plants and view existing comments.
+- **Delete Plants**: Remove plants from the tracker.
 
 ## Technologies Used
 
-- **HTML/CSS**: For the frontend layout and styling.
-- **JavaScript**: For interactivity (confirmation dialogs).
-- **Flask**: For backend development and routing.
-- **MongoDB** (or any database of your choice): For storing plant data (not included in this example).
+- **Flask**: A lightweight web framework for Python.
+- **MongoDB**: NoSQL database used for storing plant data.
+- **Jinja2**: Templating engine for dynamically generating HTML pages.
+- **HTML/CSS/JavaScript**: For building the frontend interface.
+- **Python**: The backend logic is implemented using Python.
+
+## Project Structure
+
+- **app.py**: The main Flask application file where routes and logic are handled.
+- **templates/**: Directory containing HTML templates for rendering different views.
+  - `base.html`: The base template containing common layout and styling.
+  - `create.html`: The template for adding new plants.
+  - `detail.html`: The template for viewing individual plant details.
+  - `edit.html`: The template for editing plant details.
+  - `plant_list.html`: The template displaying all plants.
+  - `about.html`: A template displaying information about the app.
+- **static/**: Directory containing static assets like CSS, JavaScript, and images.
+  - `style.css`: The main stylesheet for the app.
+  - `index.js`: JavaScript functions for confirming actions like deleting a plant.
+- **requirements.txt**: A list of Python dependencies required to run the app.
 
 ## Installation
 
@@ -50,3 +67,4 @@ My Plants is a web application designed to help users manage their plant collect
 - **Plant Details**: Click on a plant to view its details, edit information, or delete it.
 - **Harvesting**: Record the harvest details for your plants.
 - **Comments**: Add comments to share your experiences with each plant.
+
